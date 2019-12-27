@@ -34,12 +34,14 @@ build/
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
+/src/resources/public
 /dist
-/tmp
-/out-tsc
+/src/main/resources/frontend/todo/tmp
+/src/main/resources/frontend/todo/out-tsc
 
 # dependencies
 /node_modules
+/src/main/resources/frontend/todo/node_modules
 
 # IDEs and editors
 /.idea
